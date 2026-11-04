@@ -28,7 +28,7 @@ Proyecto de la asignatura *Visualización de Datos* (Ingeniería en IA, TECNUN �
 - **Corte temporal en 1992:** los jugadores más recientes pueden seguir en activo o no haber tenido tiempo de ser elegidos. Incluirlos como "no HOF" metería falsos negativos en el entrenamiento.
 - **Desbalance extremo** (~4 % de positivos): se compensa con `class_weight='balanced'`. Por eso el modelo detecta la mayoría de los HOF a costa de muchos falsos positivos.
 
-### ⚠️ Nota sobre la predicción: por qué no es muy fiable
+### Nota sobre la predicción: por qué no es muy fiable
 
 El predictor es **muy sensible a los datos de entrada**: cambios pequeños en las estadísticas mueven mucho la probabilidad. Partiendo de los valores por defecto (15 MIN, 8 PTS, 3 REB, 2 AST → **40,2 %**):
 
