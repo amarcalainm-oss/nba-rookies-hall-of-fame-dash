@@ -4,6 +4,9 @@ Dashboard interactivo hecho con **Dash + Plotly** que analiza las estadísticas 
 
 Proyecto de la asignatura *Visualización de Datos* (Ingeniería en IA, TECNUN – Universidad de Navarra, curso 2025-26).
 
+**🔗 Demo en vivo: [nba-rookies-hall-of-fame-dash.onrender.com](https://nba-rookies-hall-of-fame-dash.onrender.com)**
+*(Está alojada en el plan gratuito de Render: si nadie la ha usado en un rato, la primera carga tarda unos 50 segundos.)*
+
 ## Qué incluye
 
 **Pestaña 1 · Análisis visual**
@@ -65,7 +68,7 @@ python app.py                   # http://127.0.0.1:8050
 
 ## Desplegar
 
-El repo trae un `render.yaml` para desplegarlo gratis en [Render](https://render.com): **New → Blueprint →** seleccionar este repositorio. En producción se sirve con `gunicorn app:server`.
+La app está desplegada en [Render](https://render.com) con el `render.yaml` del repo (**New → Blueprint →** seleccionar este repositorio). Cada push a `main` la vuelve a desplegar automáticamente. En producción se sirve con `gunicorn app:server`.
 
 ## Estructura
 
