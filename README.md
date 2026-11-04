@@ -4,8 +4,8 @@ Dashboard interactivo hecho con **Dash + Plotly** que analiza las estadísticas 
 
 Proyecto de la asignatura *Visualización de Datos* (Ingeniería en IA, TECNUN – Universidad de Navarra, curso 2025-26).
 
-**🔗 Demo en vivo: [nba-rookies-hall-of-fame-dash.onrender.com](https://nba-rookies-hall-of-fame-dash.onrender.com)**
-*(Está alojada en el plan gratuito de Render: si nadie la ha usado en un rato, la primera carga tarda unos 50 segundos.)*
+**Demo en vivo: [nba-rookies-hall-of-fame-dash.onrender.com](https://nba-rookies-hall-of-fame-dash.onrender.com)**
+
 
 ## Qué incluye
 
